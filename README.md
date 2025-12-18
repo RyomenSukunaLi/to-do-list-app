@@ -2,7 +2,7 @@
 
 A simple and interactive To-Do List application built with React. This app allows users to add, edit, delete, reorder, and persist tasks using the browser's localStorage.
 
-🚀 Features
+<h1>🚀 Features</h1>
 
 ➕ Add Tasks using the input field or Enter key
 
@@ -18,7 +18,7 @@ A simple and interactive To-Do List application built with React. This app allow
 
 ⌨️ Keyboard Friendly (Enter key support)
 
-🛠️ Built With
+<h1>🛠️ Built With</h1>
 
 React (Functional Components)
 
@@ -35,20 +35,22 @@ src/
 │   └── todo.module.css
 │
 └── App.jsx
-⚙️ How It Works
-State Management
+
+<h1>⚙️ How It Works</h1>
+
+<h3>State Management</h3>
 
 tasks: Stores the list of tasks
 
 inputValue: Stores the current input value
 
-Persistence
+<h3>Persistence</h3>
 
 Tasks are saved to localStorage whenever the task list changes
 
 On initial load, tasks are fetched from localStorage
 
-Editing Tasks
+<h3>Editing Tasks</h3>
 
 Double-click on a task to make it editable
 
@@ -56,7 +58,7 @@ Press Enter to save the edited task
 
 Empty edits are ignored
 
-🧩 Installation & Setup
+<h1>🧩 Installation & Setup</h1>
 
 Clone the repository:
 
@@ -73,7 +75,8 @@ npm install
 Run the development server:
 
 npm run dev
-🧪 Usage
+
+<h1>🧪 Usage</h1>
 
 Type a task in the input field
 
@@ -87,13 +90,13 @@ Click ❌ to delete a task
 
 Click 🔄 to clear all tasks
 
-📌 Notes
+<h1>📌 Notes</h1>
 
 Tasks are stored locally in the browser, so clearing browser data will remove them
 
 Uses array index as key (acceptable for this small app, but not recommended for large-scale apps)
 
-📈 Future Improvements
+<h1>📈 Future Improvements</h1>
 
 Add task completion (checkbox)
 
@@ -103,10 +106,10 @@ Add drag-and-drop reordering
 
 Add categories or priorities
 
-👤 Author
+<h1>👤 Author</h1>
 
-Created by Awais Jutt
+Created by Awais Azeem
 
-📄 License
+<h1>📄 License</h1>
 
 This project is open-source and free to use for learning and personal projects.
